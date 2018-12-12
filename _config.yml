@@ -1,1 +1,25 @@
-theme: jekyll-theme-minimal
+# Site settings
+name: Larry's Blog
+email: jclarry@qq.com
+author: Larry Liu
+url: https://my.oschina.net/larryessay/
+resume_site: #
+github: https://github.com/larry-dev/
+baseurl: ""
+description: 记录日常
+meta_description: 刘杨;个人博客;用心看才看得清楚，本质的东西用肉眼是看不见的
+motto: 用心看才看得清楚，本质的东西用肉眼是看不见的
+banner: 用心看才看得清楚，本质的东西用肉眼是看不见的。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ["README.md", "Gemfile.lock", "Gemfile", "Rakefile"]
+
+github_username: larry-dev
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: abc7d72b4a7affd7df5c7802d57dd2c1
